@@ -183,4 +183,55 @@
   <timelines name="timelines">
     <timeline>timelines\&lt;undefined&gt;</timeline>
   </timelines>
+  <rooms name="rooms">
+    <rooms name="ui">
+      <room>rooms\title</room>
+      <room>rooms\room_options</room>
+      <room>rooms\loading</room>
+    </rooms>
+    <rooms name="rooms">
+      <room>rooms\rtutorial2</room>
+      <room>rooms\room24</room>
+      <room>rooms\r1</room>
+      <room>rooms\r3</room>
+      <room>rooms\r6</room>
+      <room>rooms\r2</room>
+      <room>rooms\r9</room>
+      <room>rooms\r5</room>
+      <room>rooms\r7</room>
+      <room>rooms\r16</room>
+      <room>rooms\r10_</room>
+      <room>rooms\r4_</room>
+      <room>rooms\r11</room>
+      <room>rooms\r12</room>
+      <room>rooms\r8</room>
+      <room>rooms\r13_</room>
+      <room>rooms\r14</room>
+      <room>rooms\r15</room>
+      <room>rooms\r17</room>
+      <room>rooms\r18</room>
+      <room>rooms\room34</room>
+      <room>rooms\r20</room>
+    </rooms>
+    <room>rooms\diealog</room>
+    <rooms name="debug">
+      <room>rooms\rectanglyroom</room>
+      <room>rooms\room30</room>
+      <room>rooms\room25</room>
+      <room>rooms\cubeyengine2</room>
+      <room>rooms\easteregg1</room>
+      <room>rooms\room16</room>
+      <room>rooms\room21</room>
+      <room>rooms\room14</room>
+      <room>rooms\dmenu</room>
+    </rooms>
+  </rooms>
+  <help>
+    <rtf>help.rtf</rtf>
+  </help>
+  <TutorialState>
+    <IsTutorial>0</IsTutorial>
+    <TutorialName></TutorialName>
+    <TutorialPage>0</TutorialPage>
+  </TutorialState>
 </assets>
