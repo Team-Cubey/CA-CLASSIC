@@ -157,11 +157,11 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_fireballright</object>
+            <object>obj_fireballrightnodestroy</object>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>0.1</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -185,11 +185,11 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_fireballleft</object>
+            <object>obj_fireballleftnodestroy</object>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>-0.1</string>
           </argument>
           <argument>
             <kind>0</kind>

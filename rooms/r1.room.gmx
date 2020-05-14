@@ -128,7 +128,7 @@ discord_presence_update()</code>
     <instance objName="obj_cubecube" x="-32" y="96" name="inst_DE82BD86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cubecube" x="-32" y="64" name="inst_FCD41BC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cubecube" x="-32" y="32" name="inst_AAE100BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cubecube" x="-32" y="0" name="inst_4824CA52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cubecube" x="-32" y="-288" name="inst_4824CA52" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_cubecube" x="-32" y="128" name="inst_998F5F58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cubecube" x="-32" y="352" name="inst_30B986FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cubecube" x="-32" y="384" name="inst_717F5F03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -250,7 +250,7 @@ discord_presence_update()</code>
     <instance objName="obj_killcubeX" x="704" y="64" name="inst_9D5BE868" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="moveleftdown" x="864" y="64" name="inst_AD0B9E32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="moverightup" x="672" y="64" name="inst_B004EFA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cubecube" x="1024" y="-160" name="inst_1BB56F38" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cubecube" x="1024" y="-352" name="inst_1BB56F38" locked="0" code="" scaleX="1" scaleY="11" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

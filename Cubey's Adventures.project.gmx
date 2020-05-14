@@ -60,7 +60,10 @@
       <sprite>sprites\story</sprite>
       <sprite>sprites\cursor</sprite>
       <sprite>sprites\spr_startbutton</sprite>
+      <sprite>sprites\spr_hardmode</sprite>
       <sprite>sprites\copyright</sprite>
+      <sprite>sprites\creditssequence</sprite>
+      <sprite>sprites\mainback</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -140,7 +143,9 @@
         <object>objects\_shootright</object>
         <object>objects\obj_fireballdown</object>
         <object>objects\obj_fireballleft</object>
+        <object>objects\obj_fireballleftnodestroy</object>
         <object>objects\obj_fireballright</object>
+        <object>objects\obj_fireballrightnodestroy</object>
         <object>objects\obj_fireballup</object>
       </objects>
       <object>objects\finalportalobj</object>
@@ -170,6 +175,7 @@
         <object>objects\pressentertostart</object>
       </objects>
       <object>objects\obj_copyright</object>
+      <object>objects\mainbackground</object>
     </objects>
     <objects name="boss">
       <object>objects\fireballtoplayershooter</object>
@@ -179,10 +185,8 @@
     <object>objects\boss</object>
     <object>objects\debughotkey</object>
     <object>objects\bosstrigger</object>
+    <object>objects\cred</object>
   </objects>
-  <timelines name="timelines">
-    <timeline>timelines\&lt;undefined&gt;</timeline>
-  </timelines>
   <rooms name="rooms">
     <rooms name="ui">
       <room>rooms\title</room>
@@ -204,14 +208,15 @@
       <room>rooms\r4_</room>
       <room>rooms\r11</room>
       <room>rooms\r12</room>
-      <room>rooms\r8</room>
       <room>rooms\r13_</room>
       <room>rooms\r14</room>
       <room>rooms\r15</room>
       <room>rooms\r17</room>
       <room>rooms\r18</room>
-      <room>rooms\room34</room>
+      <room>rooms\r8</room>
       <room>rooms\r20</room>
+      <room>rooms\final</room>
+      <room>rooms\room34</room>
     </rooms>
     <room>rooms\diealog</room>
     <rooms name="debug">
