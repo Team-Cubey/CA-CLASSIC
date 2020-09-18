@@ -121,7 +121,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.cubeymovex = 0;
+            <string>/// varsetup 1
+
+global.cubeymovex = 0;
 ultrajump = false;
 global.cutscenestart = 0;
 
@@ -369,7 +371,9 @@ global.cutscenestart = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>randcolour = random(255);
+            <string>/// cube colour setup
+
+randcolour = random(255);
 obj_cubecube.image_blend = make_colour_hsv(randcolour, 255, 255);
 objback.image_blend = make_colour_hsv(randcolour, 255, 255);
 </string>
@@ -518,7 +522,9 @@ movespeed = 4;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.cutscenestart = 0{
+            <string>/// Player Movement
+
+if global.cutscenestart = 0{
 ///Movement
 
 //Get player input
@@ -760,199 +766,6 @@ vspeed0set = 0
           <argument>
             <kind>4</kind>
             <string>3</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string></string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>612</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>-1</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_if_variable</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>global.switchblock</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>2</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/// Collision with wall
-/*
-if place_meeting(x+hsp,y, switchblock2)
-{
-
-    while(!place_meeting(x+sign(hsp),y,switchblock2))
-    {
-    x += sign(hsp);
-    }
-    hsp = 0;  
-}
-
-if place_meeting(x,y+vsp, switchblock2)
-{
-    while(!place_meeting(x,y+sign(vsp),switchblock2))
-    {
-    y += +sign(vsp);
-    }
-    vsp = 0;
-}
-
-x += hsp; // This makes you move on the X Axis 
-y += vsp; // This makes you move on the Y Axis 
-// Make sure you add the plus sign or it won't work
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>612</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>-1</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_if_variable</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>global.switchblock</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/// Collision with wall
-/*
-if place_meeting(x+hsp,y, switchblock1)
-{
-
-    while(!place_meeting(x+sign(hsp),y,switchblock1))
-    {
-    x += sign(hsp);
-    }
-    hsp = 0;  
-}
-
-if place_meeting(x,y+vsp, switchblock1)
-{
-    while(!place_meeting(x,y+sign(vsp),switchblock1))
-    {
-    y += +sign(vsp);
-    }
-    vsp = 0;
-}
-
-x += hsp; // This makes you move on the X Axis 
-y += vsp; // This makes you move on the Y Axis 
-// Make sure you add the plus sign or it won't work
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/*if place_meeting(x,y-0.01,obj_everythingisbroken){
-    ultrajump = true;
-  gravity= 2
-}
-else{
-if place_meeting(x,y-0.1,obj_cubecube){
- ultrajump = false;
- }
-}
-</string>
           </argument>
         </arguments>
       </action>

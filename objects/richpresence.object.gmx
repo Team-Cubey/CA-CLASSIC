@@ -27,13 +27,13 @@
             <kind>1</kind>
             <string>global.currentroom = "ROOM_FETCH_ERROR"
 time = discord_get_timestamp_now()
-discord_presence_init("594226230635659296")
+discord_presence_init("714476469581250610")
 discord_set_details("Current Room: ROOM_FETCH_ERROR")
 discord_set_state("")
 discord_presence_update()
 discord_set_image_large("bigcube"); //large image
 discord_set_image_small("")
-discord_set_text_large("Playing Cubey's Adventures"); //Text above large image if it's displayed
+discord_set_text_large("Playing Cubey's Adventures Classic"); //Text above large image if it's displayed
 discord_set_timestamp_start(time);
 discord_presence_update()
 

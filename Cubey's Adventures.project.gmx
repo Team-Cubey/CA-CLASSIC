@@ -78,7 +78,6 @@
     <script>scripts\boss_fallingcubes_step.gml</script>
     <script>scripts\boss_create.gml</script>
     <script>scripts\boss_summon_shooters.gml</script>
-    <script>scripts\script7.gml</script>
     <script>scripts\boss_disable_shooters.gml</script>
   </scripts>
   <fonts name="fonts">
@@ -113,8 +112,6 @@
       <object>objects\obj_fallkillcube</object>
       <object>objects\obj_spike</object>
       <object>objects\obj_playercube</object>
-      <object>objects\obj_playercubebackup2</object>
-      <object>objects\obj_playercubebackupo</object>
       <object>objects\pushblock2</object>
       <object>objects\pushblock</object>
       <objects name="abandoned">
