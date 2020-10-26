@@ -4,9 +4,7 @@
     <Config>Configs\Default</Config>
   </Configs>
   <datafiles number="2" name="datafiles"/>
-  <NewExtensions>
-    <extension index="0">extensions\GMRichPresence</extension>
-  </NewExtensions>
+  <NewExtensions/>
   <sounds name="sound">
     <sound>sound\death</sound>
     <sound>sound\collect</sound>
